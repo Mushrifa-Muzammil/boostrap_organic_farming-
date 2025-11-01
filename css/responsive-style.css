@@ -1,0 +1,423 @@
+/*Media query 1170px*/
+@media (max-width: 1170px) {
+
+    /*general css*/
+    .section-subtitle {
+        max-width: 60%;
+    }
+
+    /*01 navbar css*/
+    .header .navbar {
+        padding: 2rem 3rem;
+    }
+
+    /*02 banner section*/
+    .banner_section .carousel-item {
+        height: 80vh;
+    }
+    
+    .banner_section .carousel-caption {
+        top: 45%;
+    }
+    
+    h1 {
+        font-size: 7rem;
+    }
+}
+
+/*media query 991px*/
+@media (max-width:991px) {
+
+    /*general section*/
+    .about .banner_section,
+    .product .banner_section,
+    .gallery .banner_section,
+    .contact .banner_section {
+        padding-top: 12.5rem;
+        padding-bottom: 3rem;
+    }
+
+    /*01 navbar css*/
+    .header .navbar {
+        background-size: cover;
+        padding: 2rem;
+    }
+
+    .header .navbar-nav {
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .header .navbar-nav .nav-link {
+        padding: 0.5rem 1rem;
+        margin-bottom: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .header .header_right span {
+        padding: 0.2rem 0.5rem;
+        text-align: center;
+        display: inline-block;
+    }
+    
+    .header .header_right .phone_no {
+        font-size: 1.4rem;
+    }
+    
+    /*banner section*/
+    .banner_section .carousel-caption {
+        top: 40%;
+        left: 2%;
+    }
+    
+    .banner_section .carousel-caption h3 {
+        font-size: 2.5rem;
+    }
+    
+    .banner_section .carousel-caption p {
+        font-size: 1.6rem;
+        max-width: 100%;
+    }
+    
+    /*feature section*/
+    .feature_section .features-box {
+        padding: 4rem 0;
+        margin-bottom: 2rem;
+    }
+    
+    /*about section*/
+    .landing_about_section {
+        padding: 5rem 0;
+    }
+    
+    .section-title {
+        font-size: 3.5rem;
+    }
+    
+    .section-subtitle {
+        max-width: 80%;
+        font-size: 1.4rem;
+    }
+}
+
+/*media query 767px*/
+@media (max-width:767px) {
+
+    /*general css*/
+    body,
+    html {
+        font-size: 8px;
+    }
+
+    .section-subtitle {
+        max-width: 80%;
+    }
+    
+    h1 {
+        font-size: 5rem;
+    }
+    
+    h2 {
+        font-size: 3.5rem;
+    }
+    
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    /*02 Banner section*/
+    .banner_section {
+        min-height: 70vh;
+    }
+
+    .banner_section .carousel-item {
+        height: 70vh;
+    }
+    
+    .banner_section .carousel-caption {
+        top: 35%;
+        left: 5%;
+        text-align: center;
+    }
+    
+    .banner_section .carousel-caption h3 {
+        font-size: 2rem;
+        padding: 0.3rem 1rem;
+    }
+    
+    .banner_section .carousel-caption p {
+        font-size: 1.4rem;
+        margin: 1rem auto;
+    }
+    
+    /*feature section*/
+    .feature_section {
+        padding: 5rem 0;
+    }
+    
+    .feature_section .features-box {
+        padding: 3rem 0;
+    }
+    
+    .feature_section .features-icon {
+        height: 5rem;
+        width: 5rem;
+    }
+    
+    .feature_section .features-icon img {
+        width: 2.5rem;
+    }
+    
+    /*product section*/
+    .landing_product_section {
+        padding: 5rem 0;
+    }
+    
+    .landing_product_section .product-card {
+        margin-bottom: 2rem;
+    }
+    
+    /*testimonial section*/
+    .testimonial_section {
+        padding: 5rem 0;
+    }
+    
+    .testimonial_section .card {
+        padding: 3rem;
+    }
+    
+    .testimonial_section .profile-box {
+        padding: 1rem;
+    }
+    
+    /*footer*/
+    .footer_wrapper {
+        padding: 10rem 0 0 0;
+    }
+    
+    .footer_wrapper h5 {
+        font-size: 2rem;
+    }
+    
+    /*contact form*/
+    .contact .contact-form {
+        padding: 3rem;
+    }
+    
+    .contact .contact-form .info-box li {
+        padding-left: 5rem;
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .contact .contact-form .info-box li i {
+        font-size: 3rem;
+        top: 1rem;
+    }
+}
+
+/*media query 590px*/
+@media (max-width:590px) {
+
+    /*general css*/
+    body,
+    html {
+        font-size: 7px;
+    }
+    
+    h1 {
+        font-size: 4rem;
+    }
+    
+    h2 {
+        font-size: 3rem;
+    }
+    
+    .section-title {
+        font-size: 3rem;
+    }
+    
+    .section-subtitle {
+        max-width: 90%;
+        font-size: 1.3rem;
+    }
+
+    /*02 banner section*/
+    .banner_section {
+        min-height: 60vh;
+    }
+    
+    .banner_section .carousel-item {
+        height: 60vh;
+    }
+    
+    .banner_section .carousel-caption {
+        top: 30%;
+    }
+    
+    .banner_section .carousel-caption h3 {
+        font-size: 1.8rem;
+    }
+    
+    .main-btn {
+        padding: 0.8rem 2.5rem;
+        font-size: 1.4rem;
+    }
+    
+    /*navbar*/
+    .header .navbar-brand {
+        width: 6rem;
+    }
+    
+    .header .navbar-toggler {
+        font-size: 1.6rem;
+    }
+    
+    /*feature section*/
+    .feature_section .features-box h3 {
+        font-size: 1.6rem;
+    }
+    
+    /*product section*/
+    .landing_product_section .product-card h3 {
+        font-size: 1.6rem;
+    }
+    
+    /*footer*/
+    .footer_wrapper {
+        padding: 8rem 0 0 0;
+    }
+    
+    .footer_wrapper .social-network a {
+        width: 3rem;
+        height: 3rem;
+        line-height: 2.8rem;
+        font-size: 1.1rem;
+    }
+    
+    /*contact form*/
+    .contact .contact-form {
+        padding: 2rem;
+    }
+}
+
+/*media query 400px*/
+@media (max-width: 400px) {
+    body,
+    html {
+        font-size: 6px;
+    }
+    
+    h1 {
+        font-size: 3.5rem;
+    }
+    
+    h2 {
+        font-size: 2.5rem;
+    }
+    
+    .section-title {
+        font-size: 2.5rem;
+    }
+    
+    .main-btn {
+        padding: 0.7rem 2rem;
+        font-size: 1.2rem;
+    }
+    
+    .banner_section .carousel-caption {
+        top: 25%;
+    }
+    
+    .header .navbar {
+        padding: 1rem;
+    }
+}
+
+/* Additional responsive fixes for specific elements */
+@media (max-width: 991px) {
+    .landing_about_section .about-content {
+        text-align: center;
+        margin-top: 3rem;
+    }
+    
+    .testimonial_section .profile-box {
+        border-radius: 0.5rem 0.5rem 0 0;
+    }
+    
+    .testimonial_section .card {
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+    
+    .footer_wrapper .link-wedget li a:before {
+        left: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .landing_product_section .product-card .product-detail {
+        padding: 3rem 1rem;
+    }
+    
+    .contact .contact-form .info-box li {
+        text-align: center;
+        padding-left: 0;
+        padding-bottom: 2rem;
+    }
+    
+    .contact .contact-form .info-box li i {
+        position: relative;
+        top: 0;
+        margin-bottom: 1rem;
+        display: block;
+    }
+}
+
+/* Fix for mobile navigation */
+@media (max-width: 991px) {
+    .navbar-collapse {
+        background: rgba(3, 38, 44, 0.95);
+        padding: 2rem;
+        border-radius: 1rem;
+        margin-top: 1rem;
+    }
+}
+
+/* Fix for product cards on mobile */
+@media (max-width: 767px) {
+    .landing_product_section .product-card {
+        margin-bottom: 3rem;
+    }
+    
+    .landing_product_section .row.mx-0 > [class*="col-"] {
+        padding: 0 1rem;
+    }
+}
+
+/* Fix for testimonial carousel on mobile */
+@media (max-width: 767px) {
+    .testimonial_section .carousel-indicators {
+        bottom: -4rem;
+    }
+    
+    .testimonial_section .desc-box {
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+/* Fix for footer on mobile */
+@media (max-width: 767px) {
+    .footer_wrapper .row > [class*="col-"] {
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    
+    .footer_wrapper .social-network {
+        justify-content: center;
+    }
+    
+    .footer_wrapper .contact-info li a {
+        justify-content: center;
+    }
+}
